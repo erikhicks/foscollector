@@ -6,11 +6,11 @@ require 'RMagick'
 require 'pry'
 include Magick
 
-BASE_DIR = '/Users/erikhicks/code/foscam'
+BASE_DIR = '/home/foscam'
 
 SEARCH_DIR = BASE_DIR + '/'
-WEB_IMG_DIR = BASE_DIR + '/jpg/'
-JSON_DIR = BASE_DIR + '/'
+WEB_IMG_DIR = '/var/www/foscam/jpg/'
+JSON_DIR = '/var/www/foscam/'
 
 puts "Starting..."
 
