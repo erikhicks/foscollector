@@ -9,8 +9,8 @@ include Magick
 BASE_DIR = '/home/foscam'
 
 SEARCH_DIR = BASE_DIR + '/'
-WEB_IMG_DIR = '/var/www/foscam/jpg/'
-JSON_DIR = '/var/www/foscam/'
+WEB_IMG_DIR = '/var/www/foscollector/jpg/'
+JSON_DIR = '/var/www/foscollector/'
 
 puts "Starting..."
 
