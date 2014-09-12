@@ -61,7 +61,7 @@ files.each do |file|
   obj = {}
   obj['name'] = name.to_s
   obj['date'] = date
-  
+ 
   collection << obj
   count_added += 1
 
